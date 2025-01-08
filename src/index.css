@@ -96,15 +96,75 @@ body {
 
 @layer utilities {
 
+  
+  
   .container {
 
-    @apply px-4 mx-auto
+    @apply px-10
+    mx-auto
     2xl:max-w-screen-xl
   }
   .section{
-
-@apply py-5;
-
-md: py-16;
+    @apply py-10;
   }
+
+  .section-head {
+
+
+    @apply pb-8
+    text-center
+    
+    /* Responsive tasarım for md */
+    md:pb-16
+
+
+    /* Responsive tasarımfor lg screen */
+
+    lg:max-w-screen-sm
+    lg:mx-auto
+    ;  }
+
+    .section-subtitle{
+
+@apply text-primary
+text-sm
+font-medium
+uppercase
+;
+    }
+
+.section-title{
+
+  @apply text-foreground
+  text-3xl
+  font-semibold
+  leading-snug
+  
+  py-3
+
+
+
+
+  /* Responsive for md  */
+  md:text-[40px]
+  ;
+}
+
+
+
+.section-text{
+
+
+
+  @apply text-muted-foreground
+  
+  md:text-xl
+  ;
+
+
+}
+
+
+
+
 }

@@ -6,7 +6,7 @@ import { motion } from "motion/react";
 
 
 
-import { ArrowRight } from "lucide-react";
+//import { ArrowRight } from "lucide-react";
 
 
 //FCompanentler
@@ -16,8 +16,7 @@ import { Button } from "@/components/ui/button";
  
 //Constans
 
-import { featureData } from "@/constants"; 
-import { Button } from "./button";
+import { featureData } from "@/constants";
 
 
 const Feature = () => {
@@ -57,11 +56,25 @@ const Feature = () => {
 <motion.div className="">
 
 <Button variant="link" 
-className="">
-Learn More
-</Button>
+className="">  </Button>
 </motion.div>
 </div>
+
+
+
+{imgSrc && (
+
+<motion.figure className="">
+
+<img src={imgSrc} alt={title} />
+</motion.figure>
+
+)} 
+
+
+
+
+
 </>    
     
 </FeatureCard>

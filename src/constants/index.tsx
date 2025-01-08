@@ -36,16 +36,16 @@ import {
 // Header
 export const navMenu: MenuItem[] = [
   {
-    href: '/products',
-    label: 'Solitions',
+    href: '/cozumlerimiz',
+    label: 'Çözümlerimiz',
   },
   {
-    href: '/about-us',
-    label: 'About Us',
+    href: 'fiyatlar',
+    label: 'Fiyatlar',
   },
   {
-    href: '/references',
-    label: 'References',
+    href: '/referans',
+    label: 'Referanslarımız',
     // submenu: [
     //   {
     //     href: '#',
@@ -73,15 +73,19 @@ export const navMenu: MenuItem[] = [
     //   },
     // ],
   },
+  {
+    href: 'hakkimizda',
+    label: 'Hakkımızda',
+  },
 ];
 
 // Hero
 export const heroData = {
-  sectionSubtitle: 'START AGAİN',
-  sectionTitle: "Let's rise a new bussiness",
-  decoTitle: "together",
+  sectionSubtitle: 'YENİDEN BAŞLAYIN',
+  sectionTitle: "Haydi gelin dijital dünya da birlikte",
+  decoTitle: "büyüyelim🚀",
   sectionText:
-    'While our services lift you up, we are always at your side with our solutions. Not your business, our business!',
+    'Siz büyümenin keyfini çıkarırken, biz de sizi nasıl daha ileriye taşıyabileceğimizi düşünelim. Sizin değil, bizim işimiz!',
 };
 
 // Feature

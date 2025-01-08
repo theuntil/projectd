@@ -23,7 +23,7 @@ viewport={{  once:true    }}
 className="text-center mb-4 md:mb-6">
     
     
-The sectors we work on</motion.p>
+Referanslar</motion.p>
 
 <motion.div  
 

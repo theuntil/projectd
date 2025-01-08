@@ -105,11 +105,11 @@ rounded-full px-8 ms-3 border-t border-foreground/20 shadow-[inset_0px_0px_30px_
 
 <motion.div variants={heroChildVariant}  className=" flex justify-center gap-2 mt-6 md:mt-10">
 
-<Button>Our Solutions</Button>
+<Button>Çözümlerimiz</Button>
 
 <Dialog>
 <DialogTrigger asChild >
-<Button variant="ghost"><CirclePlay/> Bussines with us?</Button>
+<Button variant="ghost"><CirclePlay/> Biz kimiz?</Button>
 
 </DialogTrigger>
 

@@ -95,7 +95,7 @@ className={navigationMenuTriggerStyle()}>
 
 <div className=" flex items-center gap-2 justify-end max-lg:hidden">
 
-<Button>Contact Us 🎉</Button>
+<Button>İletişime geç🎉</Button>
 
 </div>
 

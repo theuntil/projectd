@@ -47,7 +47,7 @@ const MobileMenu = ({ navMenu }: MobileMenuProps) => {
 
       <div className="flex items-center gap-2 mt-4">
         
-        <Button  className='w-full'>Contact Us</Button>
+        <Button  className='w-full'>İletişime geç</Button>
       </div>
     </div>
   );
